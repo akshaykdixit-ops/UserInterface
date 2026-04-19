@@ -1,0 +1,22 @@
+{
+  "name": "saijy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2eTest_config1": "npx playwright test tests/ClientAppPO.spec.js --config  playwright.config1.js",
+    "WebTest": "npx playwright test --grep @Web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "allure-playwright": "^3.6.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.7.0"
+  }
+}
